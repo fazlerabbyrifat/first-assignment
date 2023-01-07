@@ -52,7 +52,7 @@
 /* the failure of previous year section */
 .failure-section{
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
     text-align: center;
     margin-top: 130px;
     margin-bottom: 120px;
@@ -63,8 +63,8 @@
     top: 1639px;
     left: 306px;
     padding-right: 37px;
-    padding-left: 120px;
-    position: absolute;
+    padding-left: 20px;
+    /* position: absolute; */
 }
 .failure-title{
     position: absolute;
@@ -96,8 +96,52 @@
     text-align: left;
     width: 416px;
     height: 104px;
-    left: 1700px;
+    left: 1685px;
     top: 2150px;
     font-size: 18px;
     color: #444343;
+}
+/* What i do in this year */
+.future-plan-section{
+    position: absolute;
+    text-align: center;
+}
+.future-plan-title{
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 1500px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.to-do-lists{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    width: 1141px;
+    height: 205px;
+    left: 800px;
+    top: 150px;
+}
+.to-do-list{
+    padding-left: 150px;
+}
+.to-do-list-img{
+    padding-bottom: 30px;
+}
+.to-do-list-title{
+    width: 270px;
+    height: 35px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    padding-bottom: 10px;
+}
+.to-do-list-para{
+    height: 32px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+    padding-bottom: 20px;
 }
