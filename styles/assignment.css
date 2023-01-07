@@ -45,7 +45,7 @@
     top: 780px;
     font-weight: 600;
     font-size: 16px;
-    padding: 5px 20px 35px;
+    padding: 15px 20px 45px;
     border: none;
     color: #005FAC;
 }
@@ -110,7 +110,7 @@
     position: absolute;
     width: 179px;
     height: 47px;
-    left: 1500px;
+    left: 1370px;
     font-weight: 700;
     font-size: 40px;
     color: #151414;
@@ -144,4 +144,33 @@
     font-weight: 500;
     color: #737272;
     padding-bottom: 20px;
+}
+/* liner gradient add section */
+.tag-line-section{
+    position: absolute;
+    width: 1500px;
+    height: 300px;
+    left: 600px;
+    right: 700px;
+    top: 3000px;
+    text-align: left;
+    background-image: url("../images/gradient1.png"), url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: 1700px;
+    padding: 125px 80px;
+}
+.tag-line{
+    padding: 20px 30px;
+    width: 459px;
+    height: 94px;
+    font-size: 40px;
+    font-weight: 47px;
+    color: #FFFFFF;
+}
+.btn-contact{
+    position: absolute;
+    margin-top: 10px;
+    padding: 20px 30px;
+    left: 105px;
 }
